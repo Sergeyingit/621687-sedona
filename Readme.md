@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Sergey Razgildeev](https://up.htmlacademy.ru/adaptive/15/user/621687).
-* Наставник: `Неизвестно`.
+* Наставник: [Елена Забара](https://htmlacademy.ru/profile/lena___elena).
 
 ---
 
