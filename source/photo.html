@@ -7,99 +7,140 @@
   <body>
     <header class="page-header">
       <nav class="main-nav">
-        <button class="main-nav__toggle toggle-close" type="button"><span class="visually-hidden">Закрыть меню</span></button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item site-list__item--active">
-              <a>Главная</a>
+              <a href="index.html">Главная</a>
             </li>
             <li class="site-list__item">
-              <a href="#">Фото и видео</a>
+              <a>Фото и видео</a>
             </li>
             <li class="site-list__item">
-              <a href="#">Форма отзыва</a>
+              <a href="form.html">Форма отзыва</a>
             </li>
             <li class="site-list__item">
-              <a href="#">HTML Academy</a>
+              <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
             </li>
           </ul>
         </div>
       </nav>
-      <a class="page-header__logo">
+      <a class="page-header__logo" href="https://htmlacademy.ru/intensive/adaptive">
         <img class="page-header__logo-image" src="#" width="1" height="1" alt="Седона">
       </a>
-      <button class="main-nav__toggle toggle-open"><span class="visually-hidden">Открыть меню</span></button>
+      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
     </header>
     <main class="page-main">
       <section class="intro">
-        <header class="intro__header">
-          <h2 class="visually-hidden">Фото и видео городка Седона</h2>
-          <img class="intro__header__landscape" src="#" width="1" height="1" alt="Ландшафт">
-          <b class="intro__topic">Фото и видео</b>
-          <p><span class="intro__text">Не можете решиться на путешествие</span>
-          <span class="intro__text">из-за курса? фотографии помогут вам</span>
-          <span class="intro__text">забыть о политике и экономике.</span></p>
-        </header>
+        <section class="intro__header">
+          <img class="intro__logo" src="#" width="1" height="1" alt="sedona">
+        </section>
+        <section class="intro__content">
+          <h2 class="intro__title">Фото и видео</h2>
+          <p class="intro__text">Не можете решиться на путешествие из-за курса? фотографии помогут вам забыть о политике и экономике.</p>
+        </section>
       </section>
-      <section class="photo">
-        <div class="photo__item">
-          <img src="#" width="1" height="1" alt="">
-          <p class="photo__title">Неродные просторы</p>
-          <p class="photo__author">Автор фото: Борис</p>
-          <p class="photo__likes">1350</p>
-        </div>
-        <div class="photo__item">
-          <img src="#" width="1" height="1" alt="">
-          <p class="photo__title">Местная растительность</p>
-          <p class="photo__author">Автор фото: Сергей</p>
-          <p class="photo__likes">143</p>
-        </div>
-        <div class="photo__item">
-          <img src="#" width="1" height="1" alt="">
-          <p class="photo__title">Дорога на север</p>
-          <p class="photo__author">Автор фото: Петр</p>
-          <p class="photo__likes">96</p>
-        </div>
-        <div class="photo__item">
-          <img src="#" width="1" height="1" alt="">
-          <p class="photo__title">Мост Дьявола</p>
-          <p class="photo__author">Автор фото: Антон</p>
-          <p class="photo__likes">254</p>
-        </div>
+      <section class="photo-wrapper">
+        <ul class="photo">
+          <li class="photo__item">
+            <div class="photo__wrapper">
+              <img src="#" width="1" height="1" alt="Неродные просторы">
+            </div>
+            <div class="photo__wrapper--text">
+              <p class="photo__title">Неродные просторы</p>
+              <p class="photo__author">Автор фото: Борис</p>
+              <div class="photo__likes">
+                <button class="photo__button" type="button"><span class="visually-hidden">Посавить лайк</span></button>
+                <p class="photo__sum">1350</p>
+              </div>
+            </div>
+          </li>
+          <li class="photo__item">
+            <div class="photo__wrapper">
+              <img src="#" width="1" height="1" alt="Местная растительность">
+            </div>
+            <div class="photo__wrapper--text">
+              <p class="photo__title">Местная растительность</p>
+              <p class="photo__author">Автор фото: Сергей</p>
+              <div class="photo__likes">
+                <button class="photo__button" type="button"><span class="visually-hidden">Посавить лайк</span></button>
+                <p class="photo__sum">143<p>
+              </div>
+            </div>
+          </li>
+          <li class="photo__item">
+            <div class="photo__wrapper">
+              <img src="#" width="1" height="1" alt="Дорога на север">
+            </div>
+            <div class="photo__wrapper--text">
+              <p class="photo__title">Дорога на север</p>
+              <p class="photo__author">Автор фото: Петр</p>
+              <div class="photo__likes">
+                <button class="photo__button" type="button"><span class="visually-hidden">Посавить лайк</span></button>
+                <p class="photo__sum">96</p>
+              </div>
+            </div>
+          </li>
+          <li class="photo__item">
+            <div class="photo__wrapper">
+              <img src="#" width="1" height="1" alt="Мост Дьявола">
+            </div>
+            <div class="photo__wrapper--text">
+              <p class="photo__title">Мост Дьявола</p>
+              <p class="photo__author">Автор фото: Антон</p>
+              <div class="photo__likes">
+                <button class="photo__button" type="button"><span class="visually-hidden">Посавить лайк</span></button>
+                <p class="photo__sum">254</p>
+              </div>
+            </div>
+          </li>
+        </ul>
       </section>
       <section class="video">
-        <p class="video__title">Все еще сомневаетесь?</p>
-        <p class="video__text">Смотрите видеопризентацию и</p>
-        <p class="video__text">скорее за билетами, пока они не</p>
-        <p class="video__text">подорожали в очередной раз!</p>
-        <video width="1" height="1" controls preload="metadata">
+        <div class="video__wrapper-text">
+          <p class="video__title">Все еще сомневаетесь?</p>
+          <p class="video__text">Смотрите видеопризентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+        </div>
+        <div class="video__wrapper-video">
+          <img src="#" width="1" height="1" alt="Видеопрезентация">
+          <div class="video__control-panel">
+            <div class="video__time-control">
+              <div class="video__time-scale">
+              </div>
+              <button class="video__toggle"></button>
+            </div>
+            <div class="video__function-control">
+              <button class="video__replay"></button>
+              <button class="video__titles"></button>
+              <button class="video__full-window"></button>
+            </div>
+          </div>
           <source src="#">
           <source src="#">
           <source src="#">
-        </video>
+        </div>
       </section>
     </main>
     <footer class="page-footer">
       <p class="hashtag">#visitsedona</p>
       <div class="page-footer__social">
-        <ul class="social__list">
+        <ul class="social">
           <li class="social__item">
-            <a class="social__link social__link--tw" href="#"></a>
+            <a class="social__link social__link--tw" href="#">Twitter</a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--fb" href="#"></a>
+            <a class="social__link social__link--fb" href="#">Facebook</a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--yt" href="#"></a>
+            <a class="social__link social__link--yt" href="#">Youtube</a>
           </li>
         </ul>
       </div>
-      <div class="page-footer__copyright copyright">
+      <address class="page-footer__copyright copyright">
         <span class="copyright__text">Разработано</span>
-        <a class="copyright__logo" href="#">
+        <a class="copyright__logo" href="https://htmlacademy.ru/intensive/adaptive">
           <img src="#" width="1" height="1" alt="html academy">
         </a>
-      </div>
+      </address>
     </footer>
   </body>
 </html>
