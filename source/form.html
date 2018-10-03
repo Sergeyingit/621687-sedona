@@ -9,17 +9,17 @@
       <nav class="main-nav">
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
-            <li class="site-list__item site-list__item--active">
-              <a href="index.html">Главная</a>
+            <li class="site-list__item">
+              <a class="site-list__link" href="index.html">Главная</a>
             </li>
             <li class="site-list__item">
-              <a href="photo.html">Фото и видео</a>
+              <a class="site-list__link" href="photo.html">Фото и видео</a>
             </li>
             <li class="site-list__item">
-              <a>Форма отзыва</a>
+              <a class="site-list__link site-list__link--active" >Форма отзыва</a>
             </li>
             <li class="site-list__item">
-              <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+              <a class="site-list__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
             </li>
           </ul>
         </div>
@@ -45,15 +45,15 @@
           <ul class="form__list">
             <li class="form__item">
               <label class="form__label form__label--weight--norm" for="name">Имя*:</label>
-              <input class="form__info--name" type="text" name="name" id="name" placeholder="Петр" required>
+              <input class="form__info" type="text" name="name" id="name" placeholder="Петр" required>
             </li>
             <li class="form__item">
               <label class="form__label form__label--weight--norm" for="last-name">Фамилия*:</label>
-              <input class="form__info--name" type="text" name="last-name" id="last-name" placeholder="Иванов" required>
+              <input class="form__info" type="text" name="last-name" id="last-name" placeholder="Иванов" required>
             </li>
             <li class="form__item">
               <label class="form__label form__label--weight--norm" for="second-name">Отчество:</label>
-              <input class="form__info--name" type="text" name="second-name" id="second-name" placeholder="Александрович">
+              <input class="form__info" type="text" name="second-name" id="second-name" placeholder="Александрович">
             </li>
           </ul>
         </fieldset>
@@ -62,11 +62,11 @@
           <ul class="form__list">
             <li class="form__item">
               <label class="form__label form__label--weight--norm" for="phone">Контактный телефон*:</label>
-              <input class="form__info--contacts" type="text" name="phone" id="phone" placeholder="Введите телефон" required>
+              <input class="form__info" type="text" name="phone" id="phone" placeholder="Введите телефон" required>
             </li>
             <li class="form__item">
               <label class="form__label form__label--weight--norm" for="email">Электронная почта*:</label>
-              <input class="form__info--contacts" type="text" name="email" id="email" placeholder="Введите e-mail" required>
+              <input class="form__info" type="text" name="email" id="email" placeholder="Введите e-mail" required>
             </li>
           </ul>
         </fieldset>
@@ -120,13 +120,13 @@
       <div class="page-footer__social">
         <ul class="social">
           <li class="social__item">
-            <a class="social__link social__link--tw" href="#">Twitter</a>
+            <a class="social__link social__link--tw" href="#"><span class="visually-hidden">Twitter</span></a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--fb" href="#">Facebook</a>
+            <a class="social__link social__link--fb" href="#"><span class="visually-hidden">Facebook</span></a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--yt" href="#">Youtube</a>
+            <a class="social__link social__link--yt" href="#"><span class="visually-hidden">Youtube</span></a>
           </li>
         </ul>
       </div>
