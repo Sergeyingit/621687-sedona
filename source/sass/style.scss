@@ -3,19 +3,19 @@
 @font-face {
   font-family: "PT Sans";
   src:
-    local("PT Sans Regular"),
-    url ("fonts/ptsans.woff") format("woff"),
-    url ("fonts/ptsans.woff2") format("woff2");
-    font-weight: 400;
+  local("PT Sans Regular"),
+  url ("fonts/ptsans.woff") format("woff"),
+  url ("fonts/ptsans.woff2") format("woff2");
+  font-weight: regular;
 }
 
 @font-face {
   font-family: "PT Sans";
   src:
-    local("PT Sans Bold"),
-    url ("fonts/ptsansbold.woff") format("woff"),
-    url ("fonts/ptsansbold.woff2") format("woff2");
-    font-weight: 500;
+  local("PT Sans Bold"),
+  url ("fonts/ptsansbold.woff") format("woff"),
+  url ("fonts/ptsansbold.woff2") format("woff2");
+  font-weight: bold;
 }
 
 body {
@@ -29,7 +29,7 @@ body {
   background-color: #ffffff;
   text-transform: uppercase;
   width: 320px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 a {

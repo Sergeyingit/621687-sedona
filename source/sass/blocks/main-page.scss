@@ -2,6 +2,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  background-color: #eeeeee;
 }
 
 .advantages__wrapper {
@@ -98,10 +99,11 @@
   line-height: 21px;
   font-weight: 400;
   color: #333333;
-  margin:0;
+  margin: 0;
   padding-top: 15px;
   text-align: center;
 }
+
 .advantages__description {
   font-size: 14px;
   line-height: 21px;
@@ -111,10 +113,6 @@
   padding-top: 20px;
   padding-bottom: 30px;
   text-align: center;
-}
-
-.advantages {
-  background-color: #eeeeee;
 }
 
 .search-hotel {
