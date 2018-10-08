@@ -1,45 +1,5 @@
 @import "normalize.scss";
-
-@font-face {
-  font-family: "PT Sans";
-  src:
-  local("PT Sans Regular"),
-  url ("fonts/ptsans.woff") format("woff"),
-  url ("fonts/ptsans.woff2") format("woff2");
-  font-weight: regular;
-}
-
-@font-face {
-  font-family: "PT Sans";
-  src:
-  local("PT Sans Bold"),
-  url ("fonts/ptsansbold.woff") format("woff"),
-  url ("fonts/ptsansbold.woff2") format("woff2");
-  font-weight: bold;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "PT Sans";
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 400;
-  color: #333333;
-  background-color: #ffffff;
-  text-transform: uppercase;
-  width: 320px;
-  margin: 0 auto;
-}
-
-a {
-  text-decoration: none;
-}
-
-.visually-hidden {
-  display: none;
-}
-
+@import "blocks/body.scss";
 @import "blocks/main-nav.scss";
 @import "blocks/intro.scss";
 @import "blocks/main-page.scss";
