@@ -11,8 +11,8 @@
   height: 388px;
 }
 
-.form-page .intro__header,
-.photo-page .intro__header {
+.intro__header--form,
+.intro__header--photo {
   background-color: #d5e7f1;
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
@@ -42,10 +42,10 @@
   text-align: center;
 }
 
-.form-page .intro__text {
+.intro__text--padding-form {
   padding-bottom: 18px;
 }
 
-.photo-page .intro-text {
+.intro-text--padding-photo {
   padding-bottom: 28px;
 }
