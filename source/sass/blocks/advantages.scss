@@ -1,0 +1,116 @@
+.advantages {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeee;
+}
+
+.advantages__wrapper {
+  padding: 0 20px;
+}
+
+.advantages > li:nth-child(3),
+.advantages > li:nth-child(4),
+.advantages > li:nth-child(5) {
+  padding: 0 20px;
+}
+
+.advantages__wrapper ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.advantages__item .advantages__wrapper {
+  background-color: #81b3d2;
+}
+
+.advantages__wrapper .advantages__title {
+  margin: 0;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 42px;
+  padding-bottom: 18px;
+}
+
+.advantages__wrapper .advantages__number {
+  margin: 0;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.advantages__wrapper .advantages__description {
+  margin: 0;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 43px;
+}
+
+.advantages__item .advantages__wrapper--detail {
+  background-color: #ffffff;
+}
+
+.advantages__wrapper--detail ul {
+  margin-left: 70px;
+}
+
+.advantages__wrapper--detail .advantages__title {
+  color: #000000;
+  text-align: left;
+  padding-top: 33px;
+}
+
+.advantages__wrapper--detail .advantages__title:first-child {
+  padding-top: 38px;
+}
+
+.advantages__wrapper--detail .advantages__description {
+  color: #333333;
+  text-align: left;
+  padding: 0;
+}
+
+.advantages__wrapper--detail .advantages__detail:nth-child(3) {
+  padding-bottom: 38px;
+}
+
+.advantages__title {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.advantages__number {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  margin: 0;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.advantages__description {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+}

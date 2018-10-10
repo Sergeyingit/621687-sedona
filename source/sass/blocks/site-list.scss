@@ -1,0 +1,17 @@
+.site-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-list__link {
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #81b3d2;
+  padding: 8px 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+}

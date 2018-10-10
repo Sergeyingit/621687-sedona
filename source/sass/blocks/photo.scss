@@ -1,0 +1,42 @@
+.photo {
+  background-color: #ffffff;
+  list-style: none;
+  padding: 0 20px;
+  margin: 0;
+}
+
+.photo__wrapper {
+  margin-top: 23px;
+}
+
+.photo__text {
+  margin-top: 17px;
+  margin-bottom: 20px;
+}
+
+.photo__title {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.photo__author {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333333;
+  text-transform: none;
+  margin-top: 8px;
+}
+
+.photo__sum {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 12px;
+}
