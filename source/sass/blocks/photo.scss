@@ -48,6 +48,7 @@
 
   .photo__text {
     margin: 0;
+    background-color: #f2f2f2;
   }
 
   .photo {
@@ -71,10 +72,6 @@
 
   .photo__item:nth-child(4) {
     width: 50%;
-  }
-
-  .photo__text {
-    background-color: #f2f2f2;
   }
 
   .photo__item:nth-child(3) .photo__text {
