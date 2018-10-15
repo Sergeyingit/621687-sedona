@@ -114,3 +114,89 @@
   padding-bottom: 30px;
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  .advantages {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .advantages__item {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .advantages__wrapper {
+    width: 33%;
+    padding: 0;
+  }
+
+  .advantages__wrapper--detail {
+    width: 100%;
+  }
+
+  .advantages__item:nth-child(2) .advantages__photo {
+    order: 2;
+  }
+
+  .advantages__photo {
+    width: 67%;
+  }
+
+  .advantages__item:nth-child(2) .advantages__wrapper {
+    order: 3;
+  }
+
+  .advantages__wrapper ul {
+    display: flex;
+    width: 100%;
+    margin: 0;
+
+  }
+
+  .advantages__detail {
+    width: 33%;
+    padding: 0 42px;
+  }
+
+  .advantages__wrapper--detail .advantages__detail--food {
+    order: 2;
+  }
+
+  .advantages__wrapper--detail .advantages__detail--souvenirs {
+    order: 3;
+  }
+
+  .advantages__wrapper--detail .advantages__title {
+    text-align: center;
+  }
+
+  .advantages__wrapper--detail .advantages__description {
+    text-align: center;
+  }
+
+  .advantages > .advantages__item:nth-child(3) {
+    width: 33%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .advantages > .advantages__item:nth-child(4) {
+    width: 33%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .advantages > .advantages__item:nth-child(5) {
+    width: 33%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
+  

@@ -1,3 +1,24 @@
 .page-header {
   display: blockl;
 }
+
+@media (min-width: 768px) {
+  .page-header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-header__logo {
+  	align-self: center;
+  	width: 20%;
+  	position: absolute;
+  }
+
+  .page-header__toggle {
+  	display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  
+}
