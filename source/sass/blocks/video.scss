@@ -33,3 +33,17 @@
 .video__control-panel {
   padding: 0 20px;
 }
+
+@media (min-width: 768px) {
+  .video__wrapper-video {
+    width: 648px;
+    padding: 0 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .video__wrapper-video {
+    width: 800px;
+    padding: 0 200px;
+  }
+}

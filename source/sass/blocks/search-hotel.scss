@@ -22,3 +22,9 @@
   text-align: center;
   margin-top: 25px;
 }
+
+@media (min-width: 768px) {
+  .search-hotel {
+    padding: 0 60px;
+  }
+}
