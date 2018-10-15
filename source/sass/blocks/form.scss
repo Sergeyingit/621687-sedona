@@ -146,7 +146,6 @@
   .form__group:nth-child(4) .form__list {
     display: flex;
     flex-wrap: wrap;
-
   }
 
   .form__group:nth-child(4) .form__item {
@@ -169,8 +168,8 @@
   }
 
   .form__group:nth-child(4) .form__list {
-  display: flex;
-  flex-wrap: no-wrap;
+    display: flex;
+    flex-wrap: no-wrap;
   }
 
   .form__group:nth-child(4) .form__item {
