@@ -4,8 +4,8 @@
 }
 
 .search-hotel br {
-    display: none;
-  }
+  display: none;
+}
 
 .search-hotel__title {
   margin: 0;
@@ -51,8 +51,9 @@
 
 .search-hotel__button:active {
   background-color: #5496bd;
-  color: rgba(255, 255, 255, 0.3)
+  color: rgba(255, 255, 255, 0.3);
 }
+
 @media (min-width: 768px) {
   .search-hotel {
     padding: 0 152px;

@@ -125,6 +125,7 @@
   position: relative;
   background-color: #ffffff;
 }
+
 .advantages__item:first-child::before {
   content: "";
   position: absolute;
@@ -188,7 +189,7 @@
   transform: translateX(-50%);
   width: 280px;
   height: 1px;
-  background-color: rgba(0, 0, 0, 0.1)
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .advantages__item:nth-child(4)::after {
@@ -199,7 +200,7 @@
   transform: translateX(-50%);
   width: 280px;
   height: 1px;
-  background-color: rgba(0, 0, 0, 0.1)
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 @media (min-width: 768px) {
@@ -215,7 +216,7 @@
   }
 
   .advantages__item:first-child::before {
-  display: none;
+    display: none;
   }
 
   .advantages__wrapper {
@@ -338,7 +339,6 @@
     background-image: url("../img/icon-gift.svg");
     background-position: 0 0;
     background-repeat: no-repeat;
-
   }
 
   .advantages__detail--food .advantages__title::before {

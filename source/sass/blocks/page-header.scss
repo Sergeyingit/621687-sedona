@@ -16,15 +16,15 @@
 }
 
 .page-header__toggle {
-    position: absolute;
-    top: 15px;
-    right: 20px;
-    width: 23px;
-    height: 23px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-  }
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: 23px;
+  height: 23px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
 
 .main-nav--open + .page-header__toggle::before,
 .main-nav--open + .page-header__toggle::after {
