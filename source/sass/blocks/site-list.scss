@@ -28,7 +28,6 @@
   bottom: 0;
   width: 100%;
   height: 3px;
-  
   box-shadow: inset 0px -2px 1px 0px rgba(0, 0, 0, 0.35);
 }
 
@@ -55,6 +54,7 @@
     justify-content: flex-start;
     width: auto;
   }
+
   .site-list__item {
     width: 20%;
   }
@@ -103,5 +103,4 @@
     color: rgba(118, 99, 87, 0.3);
     background-color: #ffffff;
   }
-
 }

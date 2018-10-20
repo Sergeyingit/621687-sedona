@@ -37,7 +37,7 @@
 }
 
 .modal--error .modal__text {
-  padding: 0 30px; 
+  padding: 0 30px;
 }
 
 .modal--done .modal__title {
@@ -46,7 +46,7 @@
 }
 
 .modal--done .modal__text {
-  padding: 0 31px; 
+  padding: 0 31px;
 }
 
 @media (min-width: 768px) {
@@ -69,6 +69,6 @@
   }
 
   .modal--done .modal__text {
-   padding: 0;
+    padding: 0;
   }
 }
