@@ -22,13 +22,19 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    margin-top: 36px;
+  }
+
+  .page-footer__hashtag {
+    margin-top: 15px;
   }
 }
 
 @media (min-width: 1200px) {
   .page-footer {
-    width: 960px;
+    width: 1200px;
     padding: 0 120px;
     margin: 0 auto;
+    margin-top: 64px;
   }
 }

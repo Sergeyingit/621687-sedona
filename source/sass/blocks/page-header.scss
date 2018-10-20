@@ -1,5 +1,63 @@
 .page-header {
-  display: blockl;
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+
+.page-header__logo {
+  text-align: center;
+  display: block;
+  height: 56px;
+}
+
+.page-header__logo img {
+  width: 101px;
+  height: 83px;
+}
+
+.page-header__toggle {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 23px;
+    height: 23px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+.main-nav--open + .page-header__toggle::before,
+.main-nav--open + .page-header__toggle::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  width: 23px;
+  height: 4px;
+  background-color: #ffffff;
+}
+
+.main-nav--open + .page-header__toggle::before {
+  transform: rotate(45deg);
+}
+
+.main-nav--open + .page-header__toggle::after {
+  transform: rotate(-45deg);
+}
+
+.main-nav--closed + .page-header__toggle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 23px;
+  height: 4px;
+  background-color: #81b3d2;
+  box-shadow: 0 9px 0 0 #81b3d2, 0 18px 0 0 #81b3d2;
+}
+
+.main-nav--nojs + .page-header__toggle {
+  display: none;
 }
 
 @media (min-width: 768px) {
