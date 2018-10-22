@@ -9,7 +9,7 @@
   font-weight: 700;
   color: #000000;
   text-align: center;
-  margin-top: 39px;
+  margin-top: 30px;
 }
 
 .page-footer__hashtag--margin-form {
@@ -21,12 +21,16 @@
     width: 648px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    margin-top: 36px;
+    justify-content: flex-start;
+    margin-top: 30px;
   }
 
   .page-footer__hashtag {
-    margin-top: 15px;
+    margin-top: 10px;
+  }
+
+  .page-footer__social {
+    margin-left: 110px;
   }
 }
 
@@ -35,6 +39,10 @@
     width: 1200px;
     padding: 0 120px;
     margin: 0 auto;
-    margin-top: 64px;
+    margin-top: 30px;
+  }
+
+  .page-footer__social {
+    margin-left: 270px;
   }
 }

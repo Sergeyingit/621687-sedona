@@ -21,6 +21,13 @@
 
 @media (min-width: 768px) {
   .copyright {
-    margin-top: 7px;
+    margin-top: 4px;
+    margin-left: 131px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .copyright {
+    margin-left: 285px;
   }
 }

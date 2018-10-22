@@ -23,7 +23,9 @@
 
 .form__button {
   width: 280px;
-  margin-top: 51px;
+  margin-top: 44px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .modal__button {
@@ -55,5 +57,11 @@
 
   .modal__button--width--small {
     width: 272px;
+  }
+
+  .form__button {
+    order: 6;
+    width: 50%;
+    margin-top: 52px;
   }
 }
