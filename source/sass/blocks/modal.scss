@@ -1,6 +1,16 @@
 .modal {
   background-color: #ffffff;
   padding: 0 20px;
+  box-shadow: 0 7px 15px 0 rgba(0, 1, 1, 0.15);
+}
+
+.modal--error {
+  margin-bottom: 47px;
+  border-bottom: 1px solid transparent;
+}
+
+.modal--done {
+  border-bottom: 1px solid transparent;
 }
 
 .modal__title {
@@ -21,21 +31,44 @@
   text-align: center;
 }
 
+.modal--error .modal__title {
+  padding-top: 42px;
+  padding-bottom: 31px;
+}
+
+.modal--error .modal__text {
+  padding: 0 30px;
+}
+
+.modal--done .modal__title {
+  padding-top: 44px;
+  padding-bottom: 31px;
+}
+
+.modal--done .modal__text {
+  padding: 0 31px;
+}
+
 @media (min-width: 768px) {
   .modal__title {
     font-size: 30px;
     line-height: 40px;
+    padding: 0 55px;
   }
 
   .modal--error {
     width: 400px;
     margin: 0 auto;
-    padding: 0 65px;
+    margin-bottom: 47px;
   }
 
   .modal--done {
     width: 632px;
     margin: 0 auto;
     padding: 0 87px;
+  }
+
+  .modal--done .modal__text {
+    padding: 0;
   }
 }

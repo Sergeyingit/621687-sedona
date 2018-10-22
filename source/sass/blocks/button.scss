@@ -8,10 +8,24 @@
   display: block;
   padding-top: 18px;
   padding-bottom: 19px;
-  width: 280px;
   margin: 0 auto;
-  margin-top: 27px;
-  margin-bottom: 50px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #669ec0;
+}
+
+.button:active {
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.form__button {
+  width: 280px;
+  margin-top: 44px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .modal__button {
@@ -21,8 +35,33 @@
   color: #ffffff;
   border: none;
   text-transform: uppercase;
+  width: 280px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .modal__button--width--small {
   width: 180px;
+  margin-top: 25px;
+  margin-bottom: 34px;
+}
+
+@media (min-width: 768px) {
+  .search-hotel__button {
+    width: 450px;
+  }
+
+  .modal__button {
+    width: 458px;
+  }
+
+  .modal__button--width--small {
+    width: 272px;
+  }
+
+  .form__button {
+    order: 6;
+    width: 50%;
+    margin-top: 52px;
+  }
 }

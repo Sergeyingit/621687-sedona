@@ -7,14 +7,15 @@
   .main-nav {
     width: auto;
     min-height: 56px;
+    margin: 0;
   }
 
-  .main-nav__list {
+  /*.main-nav__list {
     display: flex;
     justify-content: space-between;
     width: 768px;
     margin: 0 auto;
-  }
+  }*/
 }
 
 @media (min-width: 1200px) {
