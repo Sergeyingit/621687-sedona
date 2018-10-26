@@ -61,6 +61,7 @@
   background-image: url("../img/icon-like.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  opacity: 0.3;
 }
 
 .photo__item {
@@ -127,6 +128,10 @@
   .photo__container {
     margin-left: 20px;
   }
+
+  .photo__item::before {
+    display: none;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -140,15 +145,15 @@
   }
 
   .photo__item:nth-child(2) {
-    width: 33%;
+    width: 400px;
   }
 
   .photo__item:nth-child(3) {
-    width: 33%;
+    width: 400px;
   }
 
   .photo__item:nth-child(4) {
-    width: 33%;
+    width: 400px;
   }
 
   .photo__item {

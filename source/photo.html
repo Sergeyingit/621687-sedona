@@ -44,7 +44,11 @@
         <ul class="photo">
           <li class="photo__item">
             <div class="photo__wrapper">
-              <img src="img/photo-sunset-mobile@1x.jpg" width="280" height="280" alt="Неродные просторы">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="img/photo-sunset-desktop@1x.jpg 1x, img/photo-sunset-desktop@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="img/photo-sunset-tablet@1x.jpg 1x, img/photo-sunset-tablet@2x.jpg 2x">
+                <img src="img/photo-sunset-mobile@1x.jpg" src="img/photo-sunset-mobile@2x.jpg 2x" alt="Неродные просторы">
+              </picture>
             </div>
             <div class="photo__text">
               <div class="photo__container">
@@ -59,7 +63,12 @@
           </li>
           <li class="photo__item">
             <div class="photo__wrapper">
-              <img src="img/photo-cactus-mobile@1x.jpg" width="280" height="280" alt="Местная растительность">
+              <picture>
+                <source
+                media="(min-width: 1200px)" srcset="img/photo-cactus-desktop@1x.jpg 1x, img/photo-cactus-desktop@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="img/photo-cactus-tablet@1x.jpg 1x, img/photo-cactus-tablet@2x.jpg 2x">
+                <img src="img/photo-cactus-mobile@1x.jpg" srcset="img/photo-cactus-mobile@2x.jpg 2x" alt="Местная растительность">
+              </picture>
             </div>
             <div class="photo__text">
               <div class="photo__container">
@@ -74,7 +83,11 @@
           </li>
           <li class="photo__item">
             <div class="photo__wrapper">
-              <img src="img/photo-roads-mobile@1x.jpg" width="280" height="280" alt="Дорога на север">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="img/photo-roads-desktop@1x.jpg 1x, img/photo-roads-desktop@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="img/photo-roads-tablet@1x.jpg 1x, img/photo-roads-tablet@2x.jpg 2x">
+                <img src="img/photo-roads-mobile@1x.jpg" secset="img/photo-roads-mobile@2x.jpg 2x" alt="Дорога на север">
+             </picture>
             </div>
             <div class="photo__text">
               <div class="photo__container">
@@ -89,7 +102,11 @@
           </li>
           <li class="photo__item">
             <div class="photo__wrapper">
-              <img src="img/main-bridge-mobile@1x.jpg" width="280" height="280" alt="Мост Дьявола">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="img/main-bridge-desktop@1x.jpg 1x, img/main-bridge-desktop@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="img/main-bridge-tablet@1x.jpg 1x, img/main-bridge-tablet@2x.jpg 2x">
+                <img src="img/main-bridge-mobile@1x.jpg" srcset="img/main-bridge-mobile@2x.jpg 2x" alt="Мост Дьявола">
+              </picture>
             </div>
             <div class="photo__text">
               <div class="photo__container">
@@ -110,7 +127,11 @@
           <p class="video__text">Смотрите видеопризентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
         </div>
         <div class="video__wrapper-video">
-          <img src="img/video-mobile@1x.jpg" width="320" height="200" alt="Видеопрезентация">
+          <picture>
+            <source media="(min-width: 768px)" srcset="img/video-desktop@1x.jpg 1x, img/video-desktop@2x.jpg 2x">
+            <source media="(min-width: 768px)" srcset="img/video-tablet@1x.jpg 1x, img/video-tablet@2x.jpg 2x">
+            <img src="img/video-mobile@1x.jpg" srcset="img/video-mobile@2x.jpg 2x" alt="Видеопрезентация">
+          </picture>
           <div class="video__control-panel">
             <div class="video__time-control">
               <div class="video__time-scale">

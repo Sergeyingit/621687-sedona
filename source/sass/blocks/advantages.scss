@@ -143,11 +143,11 @@
   background-position: 0% 100%;
 }
 
-.advantages__detail .advantages__title {
+.advantages__detail {
   position: relative;
 }
 
-.advantages__detail--lodging .advantages__title::before {
+.advantages__detail--lodging::before {
   content: "";
   position: absolute;
   left: -52px;
@@ -159,7 +159,7 @@
   background-position: 0 0;
 }
 
-.advantages__detail--souvenirs .advantages__title::before {
+.advantages__detail--souvenirs::before {
   content: "";
   position: absolute;
   left: -52px;
@@ -171,7 +171,7 @@
   background-position: 0 0;
 }
 
-.advantages__detail--food .advantages__title::before {
+.advantages__detail--food::before {
   content: "";
   position: absolute;
   left: -52px;
@@ -209,11 +209,32 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+.advantages__container {
+  position: relative;
+  overflow: hidden;
+  width: 320px;
+  height: 260px;
+}
+
+.advantages__photo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+}
+
 @media (min-width: 768px) {
   .advantages {
     display: flex;
     flex-wrap: wrap;
     margin-top: 26px;
+  }
+
+  .advantages__container {
+    width: 67%;
+    height: 256px;
   }
 
   .advantages__item {
@@ -344,12 +365,12 @@
     padding-top: 45px;
   }
 
-  .advantages__detail--lodging .advantages__title::before {
+  .advantages__detail--lodging::before {
     content: "";
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: -71px;
+    top: 60px;
     width: 74px;
     height: 74px;
     background-image: url("../img/icon-house.svg");
@@ -357,12 +378,12 @@
     background-repeat: no-repeat;
   }
 
-  .advantages__detail--souvenirs .advantages__title::before {
+  .advantages__detail--souvenirs::before {
     content: "";
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: -74px;
+    top: 56px;
     width: 74px;
     height: 74px;
     background-image: url("../img/icon-gift.svg");
@@ -370,12 +391,12 @@
     background-repeat: no-repeat;
   }
 
-  .advantages__detail--food .advantages__title::before {
+  .advantages__detail--food::before {
     content: "";
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: -69px;
+    top: 60px;
     width: 74px;
     height: 74px;
     background-position: 0 0;
