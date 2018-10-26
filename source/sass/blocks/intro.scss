@@ -96,11 +96,6 @@
   line-height: 24px;
 }
 
-.intro__header picture {
-   width: 280px;
-   height: 209px;
-  }
-
 @media (min-width: 768px) {
   .intro__title {
     font-size: 21px;
@@ -213,10 +208,10 @@
   }
 
   .intro__title {
-  	padding: 0;
-  	padding-top: 110px;
-  	width: 550px;
-  	margin: 0 auto;
+    padding: 0;
+    padding-top: 110px;
+    width: 550px;
+    margin: 0 auto;
   }
 
   .intro__text--padding-form {
