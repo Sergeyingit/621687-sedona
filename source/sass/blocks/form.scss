@@ -351,6 +351,7 @@
 
   .form__group:nth-child(2) .form__item {
     width: 100%;
+    padding-bottom: 24px;
   }
 
   .form__group:nth-child(2) .form__item::before {
@@ -430,10 +431,6 @@
     padding-bottom: 22px;
   }
 
-  .form__group:nth-child(2) .form__item {
-    padding-bottom: 24px;
-  }
-
   .form__group:nth-child(3) .form__title {
     padding-top: 2px;
     padding-bottom: 55px;
@@ -462,7 +459,7 @@
     min-width: 100px;
   }
 
-  .form__group  .form__title::before {
+  .form__group .form__title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -470,9 +467,6 @@
     width: 19%;
     height: 1px;
     background-color: rgba(0, 0, 0, 0.2);
-  }
-
-  .form__group .form__title::before {
     display: none;
   }
 
