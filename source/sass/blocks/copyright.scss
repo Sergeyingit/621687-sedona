@@ -6,9 +6,13 @@
   justify-content: center;
 }
 
-.copyright__logo {
-  width: 35px;
-  height: 35px;
+.copyright__logo svg:hover,
+.copyright__logo svg:focus {
+  fill: #81b3d2;
+}
+
+.copyright__logo svg:active {
+  fill: rgba(0, 0, 0, 0.3);
 }
 
 .copyright__text {
@@ -16,18 +20,32 @@
   line-height: 26px;
   font-weight: 400;
   font-style: normal;
-  align-self: center;
+  margin-right: 10px;
+  margin-top: 4px;
 }
 
 @media (min-width: 768px) {
   .copyright {
+    margin-top: 6px;
+    margin-left: 122px;
+  }
+
+  .copyright__text {
+    margin-right: 13px;
     margin-top: 4px;
-    margin-left: 131px;
   }
 }
 
 @media (min-width: 1200px) {
   .copyright {
-    margin-left: 285px;
+    margin-left: 276px;
+  }
+
+  .copirite__text {
+    margin-right: 12px;
+  }
+
+  .copyright--form {
+    margin-top: 4px;
   }
 }

@@ -7,8 +7,8 @@
 }
 
 .photo__text {
-  padding-top: 10px;
-  padding-bottom: 39px;
+  padding-top: 14px;
+  padding-bottom: 41px;
 }
 
 .photo__title {
@@ -36,6 +36,7 @@
   color: #000000;
   padding-left: 12px;
   padding-top: 8px;
+  width: 38px;
 }
 
 .photo__likes {
@@ -61,6 +62,7 @@
   background-image: url("../img/icon-like.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  opacity: 0.3;
 }
 
 .photo__item {
@@ -98,6 +100,10 @@
     padding-top: 69px;
   }
 
+  .photo__sum {
+    padding-top: 4px;
+  }
+
   .photo__item:nth-child(1) {
     width: 100%;
   }
@@ -121,11 +127,20 @@
   .photo__likes {
     align-self: center;
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: 26px;
   }
 
   .photo__container {
     margin-left: 20px;
+  }
+
+  .photo__item::before {
+    display: none;
+  }
+
+  .photo__button::before {
+    top: 0;
+    left: 2px;
   }
 }
 
@@ -133,6 +148,7 @@
   .photo {
     width: 1200px;
     padding: 0;
+    padding-top: 73px;
   }
 
   .photo__item:nth-child(1) {
@@ -140,15 +156,15 @@
   }
 
   .photo__item:nth-child(2) {
-    width: 33%;
+    width: 400px;
   }
 
   .photo__item:nth-child(3) {
-    width: 33%;
+    width: 400px;
   }
 
   .photo__item:nth-child(4) {
-    width: 33%;
+    width: 400px;
   }
 
   .photo__item {
@@ -174,5 +190,10 @@
 
   .photo__sum {
     color: #ffffff;
+  }
+
+  .photo__button::before {
+    background-image: url("../img/icon-like-desktop.svg");
+    opacity: 1;
   }
 }

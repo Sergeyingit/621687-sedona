@@ -10,6 +10,11 @@
   width: 100%;
   height: 388px;
   position: relative;
+
+  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    background-image: url("../img/bg-back-mobile@2x.jpg");
+    background-size: 1536px auto;
+  }
 }
 
 .intro__header--form,
@@ -22,22 +27,33 @@
   height: 158px;
 }
 
+.intro__header--form .intro__logo,
+.intro__header--photo .intro__logo {
+  top: 45%;
+  left: 50%;
+  width: 230px;
+}
+
 .intro__logo {
   position: absolute;
-  top: 50%;
+  top: 51%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+  width: 280px;
+  height: 215px;
 }
 
 .intro__header::after {
   content: "";
   position: absolute;
   bottom: 0;
-  width: 100%;
+  left: -6px;
+  width: calc(100% + 7px);
   height: 26px;
   background-image: url("../img/bg-intro-triangle-mobile.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
+  background-size: cover;
 }
 
 .intro__title {
@@ -89,6 +105,11 @@
 }
 
 @media (min-width: 768px) {
+  .intro__header--form .intro__logo,
+  .intro__header--photo .intro__logo {
+    width: 455px;
+  }
+
   .intro__title {
     font-size: 21px;
     padding: 0 148px;
@@ -98,11 +119,11 @@
   .intro__text {
     padding-top: 29px;
   }
-  
+
   .intro-form {
     margin-bottom: 72px;
   }
-  
+
   .intro__title--form {
     font-size: 30px;
     padding: 0;
@@ -132,8 +153,13 @@
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 388px;
+    height: 518px;
     position: relative;
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background-image: url("../img/bg-back-tablet@2x.jpg");
+      background-size: 768px auto;
+    }
   }
 
   .intro__header--photo,
@@ -145,6 +171,7 @@
     content: "";
     position: absolute;
     bottom: 0;
+    left: auto;
     width: 100%;
     height: 57px;
     background-image: url("../img/bg-intro-triangle-tablet.svg");
@@ -155,6 +182,12 @@
   .intro-text--padding-photo {
     width: 480px;
     margin: 0 auto;
+  }
+
+  .intro__logo {
+    width: 470px;
+    height: 350px;
+    top: 49%;
   }
 }
 
@@ -167,11 +200,22 @@
     width: 100%;
     height: 518px;
     position: relative;
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background-image: url("../img/bg-back-desktop@2x.jpg");
+      background-size: 2400px auto;
+    }
+  }
+
+  .intro__header--form .intro__logo,
+  .intro__header--photo .intro__logo {
+    width: 460px;
+    top: 47%;
   }
 
   .intro__header--photo,
   .intro__header--form {
-    height: 302px;
+    height: 299px;
   }
 
   .intro__header::after {
@@ -186,10 +230,15 @@
   }
 
   .intro__title {
-  	padding: 0;
-  	padding-top: 110px;
-  	width: 550px;
-  	margin: 0 auto;
+    padding: 0;
+    padding-top: 50px;
+    width: 550px;
+    margin: 0 auto;
+  }
+
+  .intro__title--form,
+  .intro__title--photo {
+    padding-top: 114px;
   }
 
   .intro__text--padding-form {

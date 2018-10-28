@@ -21,6 +21,10 @@
   color: rgba(255, 255, 255, 0.3);
 }
 
+.button:disabled {
+  background-color: #e5e5e5;
+}
+
 .form__button {
   width: 280px;
   margin-top: 44px;
@@ -63,5 +67,11 @@
     order: 6;
     width: 50%;
     margin-top: 52px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form__button {
+    margin-top: 56px;
   }
 }
