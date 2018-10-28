@@ -224,8 +224,7 @@
   padding-bottom: 42px;
 }
 
-.form__group:nth-child(3) .form__item:first-child {
-  margin: 0;
+.form__group:nth-child(3) .form__list {
   padding-top: 18px;
 }
 
@@ -269,6 +268,10 @@
   padding-left: 79px;
   display: block;
   cursor: pointer;
+}
+
+.form__group:nth-child(4) .form__title {
+  padding-top: 21px;
 }
 
 .form__checkbox + .form__label::before {
@@ -442,7 +445,7 @@
   }
 
   .form__group:nth-child(3) .form__item:first-child {
-    padding-top: 18px;
+    padding-top: 0;
   }
 
   .form__group:nth-child(3) .form__label {
@@ -474,7 +477,7 @@
     content: "";
     position: absolute;
     top: 8px;
-    left: -61px;
+    left: -58px;
     width: 1px;
     height: 292px;
     background-color: rgba(0, 0, 0, 0.2);
@@ -565,6 +568,10 @@
     max-width: 100%;
   }
 
+  .form__group:nth-child(1) .form__title::before {
+    left: -81px;
+  }
+
   .form__group:nth-child(4) .form__list {
     display: flex;
     flex-wrap: nowrap;
@@ -631,7 +638,8 @@
   }
 
   .form__group:nth-child(2) .form__title {
-    padding-bottom: 72px;
+    padding-bottom: 75px;
+    padding-top: 32px;
   }
 
   .form__group:nth-child(2) .form__title::before,
@@ -656,6 +664,7 @@
 
   .form__group:nth-child(4) .form__title {
     width: 400px;
+    padding-top: 28px;
   }
 
   .form__group:nth-child(3) .form__title {
@@ -677,5 +686,9 @@
   .form__radio:checked + .form__label::after {
     top: 3px;
     left: 22px;
+  }
+
+  .form .form__note {
+    margin-top: 77px;
   }
 }

@@ -27,9 +27,16 @@
   height: 158px;
 }
 
+.intro__header--form .intro__logo,
+.intro__header--photo .intro__logo {
+  top: 45%;
+  left: 50%;
+  width: 230px;
+}
+
 .intro__logo {
   position: absolute;
-  top: 50%;
+  top: 51%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 280px;
@@ -98,6 +105,10 @@
 }
 
 @media (min-width: 768px) {
+  .intro__header--form .intro__logo,
+  .intro__header--photo .intro__logo {
+    width: 455px;
+  }
   .intro__title {
     font-size: 21px;
     padding: 0 148px;
@@ -174,7 +185,8 @@
 
   .intro__logo {
     width: 470px;
-    height: 354px;
+    height: 350px;
+    top: 49%;
   }
 }
 
@@ -192,6 +204,12 @@
       background-image: url("../img/bg-back-desktop@2x.jpg");
       background-size: 2400px auto;
     }
+  }
+
+  .intro__header--form .intro__logo,
+  .intro__header--photo .intro__logo {
+    width: 460px;
+    top: 47%;
   }
 
   .intro__header--photo,
@@ -212,9 +230,14 @@
 
   .intro__title {
     padding: 0;
-    padding-top: 110px;
+    padding-top: 50px;
     width: 550px;
     margin: 0 auto;
+  }
+
+  .intro__title--form,
+  .intro__title--photo {
+    padding-top: 114px;
   }
 
   .intro__text--padding-form {

@@ -1,6 +1,6 @@
 .video {
   background-color: #ffffff;
-  margin-bottom: 135px;
+  margin-bottom: 175px;
   position: relative;
 }
 
@@ -153,7 +153,7 @@
 
 @media (min-width: 768px) {
   .video {
-    margin-bottom: 78px;
+    margin-bottom: 77px;
   }
 
   .video__wrapper-video {
@@ -161,11 +161,12 @@
     height: 500px;
     margin: 0 auto;
     overflow: hidden;
+    padding-top: 0;
   }
 
   .video__title {
     font-size: 30px;
-    padding-top: 65px;
+    padding-top: 68px;
   }
 
   .video__text {
@@ -259,5 +260,26 @@
 
   .video {
     margin-bottom: 122px;
+  }
+
+  .video__time-control {
+    width: 540px;
+    margin-left: 91px;
+  }
+
+  .video__replay {
+    margin-left: 32px;
+  }
+
+  .video__toggle {
+    left: 113px;
+  }
+
+  .video__titles {
+    margin-left: 674px;
+  }
+
+  .video__full-window {
+    margin-left: 736px;
   }
 }
