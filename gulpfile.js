@@ -29,7 +29,7 @@ gulp.task("css", function () {
     .pipe(server.stream());
 });
 
-gulp.task("images", function () { 
+gulp.task("images", function () {
   return gulp.src("source/img/**/*.{png,jpg,svg}")
     .pipe(imagemin([
       imagemin.jpegtran({progressive: true}),
@@ -46,7 +46,7 @@ gulp.task("webp", function () {
 
 gulp.task("sprite", function () {
   return gulp.src("source/img/icon-*.svg")
-    .pipe(svgstore({ 
+    .pipe(svgstore({
       inlineSvg: true
     }))
     .pipe(rename("sprite.svg"))
