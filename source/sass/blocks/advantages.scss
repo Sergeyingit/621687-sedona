@@ -331,10 +331,6 @@
     order: 3;
   }
 
-  .advantages__wrapper--detail .advantages__title {
-    text-align: center;
-  }
-
   .advantages__wrapper--detail .advantages__description {
     text-align: center;
   }
@@ -388,6 +384,7 @@
 
   .advantages__wrapper--detail .advantages__title {
     padding-top: 28px;
+    text-align: center;
   }
 
   .advantages__detail--lodging::before {
@@ -466,6 +463,7 @@
   .advantages__wrapper--detail {
     width: 1200px;
   }
+  
   .advantages__wrapper ul {
     margin: 0;
   }
