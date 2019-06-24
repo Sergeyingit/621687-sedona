@@ -133,7 +133,7 @@
 }
 
 .form__info:hover,
-.form__comment:hover, {
+.form__comment:hover {
   background-color: #e5e5e5;
 }
 
@@ -322,7 +322,7 @@
     display: flex;
     flex-wrap: wrap;
     width: auto;
-    padding: 0 8%;
+    padding: 0 61px;
     justify-content: space-between;
     margin-bottom: 98px;
   }
@@ -334,7 +334,7 @@
 
   .form__group:nth-child(1) {
     order: 2;
-    width: 37%;
+    width: 265px;
     margin-left: auto;
   }
 
@@ -345,7 +345,7 @@
 
   .form__group:nth-child(3) {
     order: 1;
-    width: 37%;
+    width: 280px;
   }
 
   .form__group:nth-child(1) .form__item {
@@ -399,7 +399,7 @@
   }
 
   .form__group:nth-child(4) .form__item {
-    width: 40%;
+    width: 221px;
     padding-top: 22px;
   }
 
@@ -409,7 +409,7 @@
   }
 
   .form__group:nth-child(2) .form__info {
-    width: 91%;
+    width: 588px;
   }
 
   .form__group:nth-child(5) .form__comment {
@@ -423,7 +423,7 @@
   }
 
   .form__group:nth-child(4) .form__title {
-    width: 50%;
+    width: 323px;
     margin: 0 auto;
     padding-top: 29px;
   }
@@ -467,7 +467,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 19%;
+    width: 122px;
     height: 1px;
     background-color: rgba(0, 0, 0, 0.2);
     display: none;
@@ -493,7 +493,6 @@
   .form__group:nth-child(4) .form__title::before {
     top: 54px;
     display: block;
-    width: 38%;
     left: -162px;
   }
 
@@ -508,7 +507,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 19%;
+    width: 122px;
     height: 1px;
     background-color: rgba(0, 0, 0, 0.2);
   }
@@ -525,7 +524,6 @@
   .form__group:nth-child(4) .form__title::after {
     top: 54px;
     display: block;
-    width: 38%;
     right: -162px;
   }
 
