@@ -1,9 +1,15 @@
-.photo {
+.photo__list {
   background-color: #ffffff;
   list-style: none;
   padding: 0 20px;
   margin: 0;
   padding-top: 51px;
+}
+
+.photo__wrapper {
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
 }
 
 .photo__text {
@@ -80,10 +86,17 @@
 }
 
 @media (min-width: 768px) {
-  .photo__wrapper {
-    margin: 0;
+  .photo__item:nth-child(1) .photo__wrapper {
+    width: 648px;
+    height: 400px;
   }
 
+  .photo__wrapper {
+    width: 324px;
+    height: 267px;
+    overflow: hidden;
+    margin: 0;
+  }
 
   .photo__text {
     margin: 0;
@@ -92,7 +105,7 @@
     padding-bottom: 17px;
   }
 
-  .photo {
+  .photo__list {
     width: 100%;
     padding: 0 60px;
     display: flex;
@@ -145,10 +158,20 @@
 }
 
 @media (min-width: 1200px) {
-  .photo {
+  .photo__list {
     width: 1200px;
     padding: 0;
     padding-top: 73px;
+  }
+
+  .photo__item:nth-child(1) .photo__wrapper {
+    width: 1200px;
+    height: 400px;
+  }
+
+  .photo__wrapper {
+    width: 400px;
+    height: 267px;
   }
 
   .photo__item:nth-child(1) {
